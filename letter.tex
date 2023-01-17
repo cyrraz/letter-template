@@ -1,9 +1,10 @@
 \documentclass[a4paper,11.5pt,twoside]{article}
 
+\usepackage{lipsum}  % To generate dummy text
 \usepackage[a4paper,left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
 
 \setlength\parindent{0pt}
-\setlength{\parskip}{5pt}
+\setlength{\parskip}{10pt}
 \renewcommand{\baselinestretch}{1.25}
 
 \begin{document}
@@ -15,7 +16,6 @@ New York \\
 USA
 
 \bigskip
-\bigskip
 
 Yamada Tarō \\
 Shibuya \\
@@ -23,20 +23,20 @@ Tokyo \\
 Japan \\
 
 \bigskip
+
+\hfill New York, January 2049\\
+
 \bigskip
 
-\hfill New York, January 2023\\
-
-\bigskip
-\bigskip
-
-\textbf{Purpose}\\
+\textbf{Purpose of this letter}\\
 
 Dear Tarō-san, \\
 
-I hope that you are doing well. \\
+\lipsum[1-2] % Generate dummy text
 
-Best, \\
+\bigskip
+
+Best regards, \\
 
 John Smith
 \end{document}
