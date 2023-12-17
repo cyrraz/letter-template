@@ -1,5 +1,5 @@
-latex-letter-template
-=====================
+letter-template
+===============
 
 Very simple template for a letter in LaTeX.
 
